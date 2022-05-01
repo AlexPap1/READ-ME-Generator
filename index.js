@@ -9,58 +9,58 @@ const questions = [
     {
         type:'input',
         name:'username',
-        message:'test',
+        message:'What is your GitHub Username?',
     },
     {
         type:'input',
         name:'email',
-        message:'test',
+        message:'What is your email address?',
     },
     {
         type:'input',
         name:'repo',
-        message:'test',
+        message:'What is the name of your repository?',
     },
     {
         type:'input',
         name:'description',
-        message:'test',
+        message:'Please describe the function of your repo:',
     },
     {
         type:'input',
         name:'instructions',
-        message:'test',
+        message:'What dependencies are required to install?',
     },
     {
         type:'input',
         name:'usage',
-        message:'test',
+        message:'What is the use for this repo?',
     },
     {
         type:'checkbox',
         name:'licenses',
-        message:'test',
+        message:'What licenses are used in this repo?',
     },
     {
         type:'input',
         name:'contributing',
-        message:'test',
+        message:'Who are the contributors to this repo?',
     },
     {
         type:'input',
         name:'tests',
-        message:'test',
+        message:'What instructions are needed to test your repo?',
     },
 
 ];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    return fs.
 }
 
 // TODO: Create a function to initialize app
 function init() {
+    inquirer.prompt(questions)
 }
 
 // Function call to initialize app
