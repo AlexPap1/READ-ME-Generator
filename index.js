@@ -40,6 +40,8 @@ const questions = [
         type:'checkbox',
         name:'licenses',
         message:'What licenses are used in this repo?',
+        //add choices
+        choices: ['1', '2']
     },
     {
         type:'input',
@@ -61,7 +63,10 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
-}
+        .then(function (answers) {
+            writeToFile("./README.md", generateMarkdown(answers))
+        })
+};
 
 // Function call to initialize app
 init();

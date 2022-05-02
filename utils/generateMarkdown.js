@@ -17,8 +17,21 @@ function generateMarkdown(data) {
 
 # Title:
 ## 🖥️ Github URL 🖥️
+
+**https://github.com/${data.username}/ **
+
 ## 🖊️ Description 🖊️
+
+${data.description}
+
 ## 📜 Table of Contents 📜
+
+[Installations](#installation)
+[Usage](*usage)
+[Contributors](#contributors)
+[Tests](#tests)
+[Questions?](#questions)
+
 ## ⬇️ Installations ⬇️
 ## ⚙️ Usage ⚙️
 ## 🤝 Contributors 🤝
