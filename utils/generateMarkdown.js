@@ -16,8 +16,11 @@ function generateMarkdown(data) {
 //license
 
 # Title:
+# ${data.repo}
+
 ## 🖥️ Github URL 🖥️
 
+**[${data.username}]
 **https://github.com/${data.username}/ **
 
 ## 🖊️ Description 🖊️
@@ -33,12 +36,26 @@ ${data.description}
 [Questions?](#questions)
 
 ## ⬇️ Installations ⬇️
+
+${data.instructions}
+
 ## ⚙️ Usage ⚙️
+
+${data.usage}
+
 ## 🤝 Contributors 🤝
+
+${data.contributing}
+
 ## 👾 Tests 👾
+
+${data.tests}
+
 ## 🤔 Questions? 🤔
 
+* Have any additional questions? check out my github profile ${data.username} at https://github.com/${data.username}/
 
+* And feel free to ask additional questions by reaching my email at (mailto:${data.email}).
 
 `;
 }
