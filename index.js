@@ -34,7 +34,7 @@ const questions = [
     {
         type:'input',
         name:'usage',
-        message:'What is the use for this repo?',
+        message:'What is the usage information?',
     },
     {
         type:'checkbox',
@@ -56,14 +56,15 @@ const questions = [
 
 ];
 
-// TODO: Create a function to write README file
+//Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, err =>
+        //console logs error or success
         err ? console.log(err) : console.log('Success!')
     )
 };
 
-// TODO: Create a function to initialize app
+// Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
         .then(function (answers) {

@@ -10,51 +10,67 @@ function licenseLink(license) {}
 // If there is no license, return an empty string
 function licenseSection(license) {}
 
-// TODO: Create a function to generate markdown for README
+//function to generate markdown for README
+//ADD LICENSE!!
 function generateMarkdown(data) {
   return `# ${data.title}
-//license
 
 # Title: ${data.repo}
 
 ## 🖥️ Github URL 🖥️
+<br />
 
 ## ${data.username}
 ## https://github.com/${data.username}/
+<br />
 
 ## 🖊️ Description 🖊️
+<br />
 
 ${data.description}
+<br />
 
 ## 📜 Table of Contents 📜
+<br />
 
-* [Installations](#installation)
-* [Usage](#usage)
-* [Contributors](#contributors)
-* [Tests](#tests)
-* [Questions?](#questions)
+* [Installations](#⬇️-installations-⬇️)
+* [Usage](#⚙️-usage-⚙️)
+* [Contributors](#🤝-contributors-🤝)
+* [Tests](#👾-tests-👾)
+* [Questions?](#🤔-questions-🤔)
+<br />
 
 ## ⬇️ Installations ⬇️
+<br />
 
 ${data.instructions}
+<br />
 
 ## ⚙️ Usage ⚙️
+<br />
 
 ${data.usage}
+<br />
 
 ## 🤝 Contributors 🤝
+<br />
 
 ${data.contributing}
+<br />
 
 ## 👾 Tests 👾
+<br />
 
 ${data.tests}
+<br />
 
-## 🤔 Questions? 🤔
+## 🤔 Questions 🤔
+<br />
 
 * Have any additional questions? Check out my github profile ${data.username} at https://github.com/${data.username}/
 
-* And feel free to ask additional questions by reaching my email at [send an email](mailto:${data.email}).
+* And feel free to ask additional questions by reaching [my email](mailto:${data.email}).
+<br />
 
 Made with ❤️ and Thank you for viewing 🤝
 
