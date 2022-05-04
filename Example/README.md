@@ -1,3 +1,6 @@
+# THIS IS A SAMPLE README BASED ON THE TUTORIAL FOUND HERE:
+## Tutorial: https://drive.google.com/file/d/1xPnEA3t2domtTLPiWng5BdaF3tVlxWE3/view
+
 # Title: ReadMe Generator
 
 ![license](https://img.shields.io/badge/License-MIT-blue.svg)
@@ -12,7 +15,7 @@
 ## 🖊️ Description 🖊️
 <br />
 
-Creates a qulity ReadMe file
+Creates a quality ReadMe file
 <br />
 
 ## 📜 Table of Contents 📜
