@@ -38,7 +38,7 @@ const questions = [
     },
     {
         type:'checkbox',
-        name:'licenses',
+        name:'license',
         message:'What licenses are used in this repo?',
         //add choices -> 4 total
         choices: ['APACHE2.0', 'MIT', 'IBM', 'MPL', 'N/A'],

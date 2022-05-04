@@ -6,9 +6,16 @@ function licenseBadge(license) {
   return `![license](https://img.shields.io/badge/License-${license}-blue.svg)`
 }
 
-// TODO: Create a function that returns the license link
+// Create a function that returns the license link
 // If there is no license, return an empty string
-function licenseLink(license) {}
+function licenseLink(license) {
+  if (license == "N/A") {
+    return ''
+  }
+  return (
+    `\n* [License](#👮-License-👮)\n`
+  )
+}
 
 // If license is N/A, empty string for License section. If a value is selected, it will create a section. 
 function licenseSection(license) {
@@ -16,20 +23,17 @@ function licenseSection(license) {
     return ''
   }
   return (
-    `## License 👮
-    <br />
+    `## 👮 License 👮
     
-    The following Repo has been rated ${license} by the MPAA, Inc.`
+    The following Repo has been licensed under ${license} by the user.`
   )
 }
 
 //function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `# Title: ${data.repo}
 
 ${licenseBadge(data.license)}
-
-# Title: ${data.repo}
 
 ## 🖥️ Github URL 🖥️
 <br />
@@ -49,6 +53,7 @@ ${data.description}
 
 * [Installations](#⬇️-installations-⬇️)
 * [Usage](#⚙️-usage-⚙️)
+${licenseLink(data.license)}
 * [Contributors](#🤝-contributors-🤝)
 * [Tests](#👾-tests-👾)
 * [Questions?](#🤔-questions-🤔)
@@ -76,6 +81,9 @@ ${data.contributing}
 <br />
 
 ${data.tests}
+<br />
+
+${licenseSection(data.license)}
 <br />
 
 ## 🤔 Questions 🤔
