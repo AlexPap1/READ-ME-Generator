@@ -1,19 +1,33 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function licenseBadge(license) {}
+//if license is none, empty string, if not, returns sheilds link for given license
+function licenseBadge(license) {
+  if (license == "N/A") {
+    return ''
+  }
+  return `![license](https://img.shields.io/badge/License-${license}-blue.svg)`
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function licenseLink(license) {}
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function licenseSection(license) {}
+// If license is N/A, empty string for License section. If a value is selected, it will create a section. 
+function licenseSection(license) {
+  if (license == "N/A") {
+    return ''
+  }
+  return (
+    `## License 👮
+    <br />
+    
+    The following Repo has been rated ${license} by the MPAA, Inc.`
+  )
+}
 
 //function to generate markdown for README
-//ADD LICENSE!!
 function generateMarkdown(data) {
   return `# ${data.title}
+
+${licenseBadge(data.license)}
 
 # Title: ${data.repo}
 
