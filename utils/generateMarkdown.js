@@ -13,7 +13,7 @@ function licenseLink(license) {
     return ''
   }
   return (
-    `\n* [License](#👮-License-👮)\n`
+    `\n* [License](#👮-license-👮)\n`
   )
 }
 

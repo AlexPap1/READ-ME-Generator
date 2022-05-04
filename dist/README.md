@@ -1,18 +1,18 @@
-# Title: a
+# Title: p
 
-![license](https://img.shields.io/badge/License-MIT-blue.svg)
+
 
 ## 🖥️ Github URL 🖥️
 <br />
 
-## a
-## https://github.com/a/
+## p
+## https://github.com/p/
 <br />
 
 ## 🖊️ Description 🖊️
 <br />
 
-a
+p
 <br />
 
 ## 📜 Table of Contents 📜
@@ -20,8 +20,6 @@ a
 
 * [Installations](#⬇️-installations-⬇️)
 * [Usage](#⚙️-usage-⚙️)
-
-* [License](#👮-License-👮)
 
 * [Contributors](#🤝-contributors-🤝)
 * [Tests](#👾-tests-👾)
@@ -31,38 +29,36 @@ a
 ## ⬇️ Installations ⬇️
 <br />
 
-a
+p
 <br />
 
 ## ⚙️ Usage ⚙️
 <br />
 
-a
+p
 <br />
 
 ## 🤝 Contributors 🤝
 <br />
 
-a
+[
 <br />
 
 ## 👾 Tests 👾
 <br />
 
-a
+p
 <br />
 
-## 👮 License 👮
-    
-    The following Repo has been licensed under MIT by the user.
+
 <br />
 
 ## 🤔 Questions 🤔
 <br />
 
-* Have any additional questions? Check out my github profile a at https://github.com/a/
+* Have any additional questions? Check out my github profile p at https://github.com/p/
 
-* And feel free to ask additional questions by reaching [my email](mailto:a).
+* And feel free to ask additional questions by reaching [my email](mailto:p).
 <br />
 
 Made with ❤️ and Thank you for viewing 🤝
